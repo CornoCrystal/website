@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Navbar from "./navbar.svelte";
+    import Navbar from "./Navbar.svelte";
 </script>
 
 <header>
