@@ -1,0 +1,25 @@
+@import './vars.scss';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: $color-1;
+    // background-image: url('bg.svg');
+    // background-size: cover;
+}
+
+navbar, a {
+    text-decoration: none;
+    align-items: center;
+    font-size: large;
+    display: inline-block;
+    color: aliceblue;
+    padding: 20px;
+    transition: 0.1s ease-in-out;
+}
+
+navbar:hover, a:hover {
+    color: $tertiary-purple;
+    text-shadow: 0 0 5px $tertiary-purple;
+}
