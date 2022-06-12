@@ -5,21 +5,7 @@
     text-align: center;
     margin: 0;
     background-color: $color-1;
+    color: white;
     // background-image: url('bg.svg');
     // background-size: cover;
-}
-
-:global(navbar, a) {
-    text-decoration: none;
-    align-items: center;
-    font-size: large;
-    display: inline-block;
-    color: aliceblue;
-    padding: 20px;
-    transition: 0.1s ease-in-out;
-}
-
-:global(navbar:hover, a:hover) {
-    color: $tertiary-purple;
-    text-shadow: 0 0 5px $tertiary-purple;
 }

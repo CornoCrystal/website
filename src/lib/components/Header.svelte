@@ -27,8 +27,6 @@
 <style lang="scss">
     @import '../../styles/global.scss';
 
-    $height: 80px;
-
     header {
         display: flex;
         justify-content: space-between;
