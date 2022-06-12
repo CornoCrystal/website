@@ -1,6 +1,6 @@
 @import './vars.scss';
 
-body {
+:global(body) {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin: 0;
@@ -9,7 +9,7 @@ body {
     // background-size: cover;
 }
 
-navbar, a {
+:global(navbar, a) {
     text-decoration: none;
     align-items: center;
     font-size: large;
@@ -19,7 +19,7 @@ navbar, a {
     transition: 0.1s ease-in-out;
 }
 
-navbar:hover, a:hover {
+:global(navbar:hover, a:hover) {
     color: $tertiary-purple;
     text-shadow: 0 0 5px $tertiary-purple;
 }
