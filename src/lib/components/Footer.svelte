@@ -26,13 +26,11 @@
     @import '../../styles/vars.scss';
 
     footer {
-        padding: 10px;
+        display: flex;
+        flex-direction: column;
         text-align: center;
-        bottom: 0;
-        position: absolute;
-        width: 100%;
         margin-top: auto;
-        height: $height;
+        bottom: 0;
         background-color: $color-2;
 
         p {
