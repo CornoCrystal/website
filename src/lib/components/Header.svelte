@@ -31,7 +31,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 100px;
+        padding: 20px 100px;
         max-height: $height;
         background-color: $color-2;
         //border-bottom: 5px solid $primary-purple;

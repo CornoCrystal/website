@@ -26,15 +26,10 @@
     @import '../../styles/vars.scss';
 
     footer {
-        display: flex;
-        flex-direction: column;
         text-align: center;
         margin-top: auto;
+        padding: 10px;
         bottom: 0;
         background-color: $color-2;
-
-        p {
-            color: gray;
-        }
     }
 </style>

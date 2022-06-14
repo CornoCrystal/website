@@ -24,7 +24,7 @@
     }
 
     :global(a:hover) {
-        color: $tertiary-purple;
-        text-shadow: 0 0 5px $tertiary-purple;
+        color: $color-3;
+        text-shadow: 0 0 5px $color-3;
     }
 </style>
