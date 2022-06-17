@@ -11,14 +11,14 @@
                     link: "/media",
                     name: "Media",
                 },
-                {
-                    link: "/anuncios",
-                    name: "Anúncios",
-                },
-                {
-                    link: "/donate",
-                    name: "Donate",
-                },
+                // {
+                //     link: "/anuncios",
+                //     name: "Anúncios",
+                // },
+                // {
+                //     link: "/donate",
+                //     name: "Donate",
+                // },
             ]
         }
     />
