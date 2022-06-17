@@ -11,6 +11,14 @@
                     link: "/media",
                     name: "Media",
                 },
+                {
+                    link: "/changelog",
+                    name: "Changelog",
+                },
+                {
+                    link: "/donate",
+                    name: "Donate",
+                },
             ]
         }
     />
