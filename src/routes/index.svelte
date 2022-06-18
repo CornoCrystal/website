@@ -1,7 +1,5 @@
 
 <div class="main">
-    <title>Corno Crystal</title>
-
     <!-- svelte-ignore a11y-missing-attribute -->
     <iframe src="https://discord.com/widget?id=785943859845660732&theme=dark" width="350" height="500" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"/>
 
