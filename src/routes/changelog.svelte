@@ -1,11 +1,10 @@
 <script lang="ts">
     import { VITE_BACKEND_URL } from "$lib/env";
-import { invalid_attribute_name_character } from "svelte/internal";
 
     console.log(VITE_BACKEND_URL);
 
     async function getChangelog () {
-		var res = await fetch('https://' + VITE_BACKEND_URL + '/changelog');
+		var res = await fetch(VITE_BACKEND_URL + '/changelog');
         const data = await res.json();
 
         if (res.ok) {
