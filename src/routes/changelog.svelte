@@ -5,7 +5,7 @@ import { invalid_attribute_name_character } from "svelte/internal";
     console.log(VITE_BACKEND_URL);
 
     async function getChangelog () {
-		var res = await fetch('http://' + VITE_BACKEND_URL + '/changelog');
+		var res = await fetch('https://' + VITE_BACKEND_URL + '/changelog');
         const data = await res.json();
 
         if (res.ok) {
